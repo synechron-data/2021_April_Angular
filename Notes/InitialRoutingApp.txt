@@ -1,0 +1,35 @@
+1. ng new routing-app
+
+2. cd routing-app
+
+3. npm i bootstrap bootstrap-icons jquery popper.js
+
+4. We added the styles and scripts in angular.json file
+
+5. We added port, open in angular.json file
+
+6. We deleted the default app component files
+
+7. We added the following components
+
+	ng g c components/root -s -p --skipTests=true
+
+	ng g c components/bs-nav -p --skipTests=true
+
+	ng g c components/home -s -p --skipTests=true
+
+	ng g c components/about -s -p --skipTests=true
+
+8. We changed the index.html page to use root selector
+
+9. We added bs-nav and router-outlet in the root component
+
+10. We added navigation in bs-nav component using routerLink directive
+
+11. We added css to target the active link in bs-nav css file
+
+12. We added HTML in home and about component
+
+13. We added global css in styles.css file
+
+14. We configured app-routing module with route objects
